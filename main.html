@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Main</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main id="app">
+        <h1>Egyptian civilization</h1>
+
+
+        <p>The ancient Egyptian civilization was one of the oldest and most powerful cultures in history. It began around 3100 BCE along the fertile Nile River, where rich soil and steady floods allowed farming to thrive. Egyptians built great cities, created a writing system called hieroglyphs, and developed remarkable art, science, and architecture — including the famous pyramids. Religion played a central role in their lives, with hundreds of gods, grand temples, and strong beliefs about the afterlife. For over 3,000 years, Egypt remained a land of innovation, beauty, and mystery that still fascinates the world today.</p>
+
+
+        <a href="page1.html">Who Was Tutankhamun?</a>
+        <br>
+        <a href="page2.html">Egyptian Mythology (Simplified)</a>
+
+
+        <h2>Quick Egyptian Quiz</h2>
+<p>Who was the ancient Egyptian sun god?</p>
+
+<button onclick="checkAnswer1('Ra')">Ra</button>
+<button onclick="checkAnswer1('Osiris')">Osiris</button>
+<button onclick="checkAnswer1('Anubis')">Anubis</button>
+<button onclick="checkAnswer1('Cristiano Ronaldo')">Cristiano Ronaldo</button>
+
+<p id="result1"></p>
+
+<p>Who built the pyramids?</p>
+
+<button onclick="checkAnswer2('Aliens')">Aliens</button>
+<button onclick="checkAnswer2('Sub-saharan Africans')">Subsaharan Africans</button>
+<button onclick="checkAnswer2('Ancient Giants')">Ancient Giants</button>
+<button onclick="checkAnswer2('Egyptians')">Egyptians</button>
+
+<p id="result2"></p>
+
+<p>Is there a passport for King Ramses II?</p>
+
+<button onclick="checkAnswer3('Yes')">Yes</button>
+<button onclick="checkAnswer3('No')">No</button>
+
+
+<p id="result3"></p>
+
+<script>
+function checkAnswer1(answer) {
+  if (answer === 'Ra') {
+    document.getElementById('result1').textContent = "✅ Correct! Ra was the powerful sun god.";
+  } else if (answer === 'Cristiano Ronaldo'){
+    document.getElementById('result1').textContent = "❌ Incorrect. but close!";
+} else {
+    document.getElementById('result1').textContent = "❌ Incorrect. Try again!";
+}}
+
+function checkAnswer2(answer) {
+  if (answer === 'Egyptians') {
+    document.getElementById('result2').textContent = "✅ Correct! Egyptians built the pyramids.";
+  } else {
+    document.getElementById('result2').textContent = "❌ Incorrect. Try again!";
+}}
+
+function checkAnswer3(answer) {
+  if (answer === 'Yes') {
+    document.getElementById('result3').textContent = "✅ Correct! Rameses II has a passport. You can check it on Google!";
+  } else {
+    document.getElementById('result3').textContent = "❌ Incorrect. Try again!";
+}}
+
+</script>
+
+<img src="https://i.redd.it/s35s9ru7eczb1.jpg" alt="meme 1" style="width: 500px; height: 500px;" >
+<img src="meme2.jpg" alt="meme 2" style="width: 500px; height: 500px;">
+
+</main>
+    <script src="main.js" defer></script>
+</body>
+</html>

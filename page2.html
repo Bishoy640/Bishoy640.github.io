@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Main</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main id="app">
+  <h1>Egyptian Mythology (Simplified)</h1>
+  <img src="egyptian-gods-names-and-powers.webp" style="width:800px;height:400px; float:right; margin-right: 100px;" >
+
+  <h2>Main Beliefs</h2>
+  <ul>
+    <li>Egyptians believed in many gods and goddesses (polytheism).</li>
+    <li>Each god controlled parts of nature or life — like the sun, the Nile, or death.</li>
+    <li>Gods could appear as humans, animals, or both.</li>
+    <li>Living a good life meant eternal peace in the afterlife.</li>
+    <li>The Pharaoh was seen as a living god.</li>
+  </ul>
+
+<h2>
+  Major Gods and Goddesses
+
+</h2>
+  <ul>
+    <li><b>Ra</b> – Sun god and creator of life.</li>
+    <li><b>Osiris</b> – God of the afterlife and resurrection.</li>
+    <li><b>Isis</b> – Goddess of magic and motherhood.</li>
+    <li><b>Horus</b> – Sky god; symbol of kingship and protection.</li>
+    <li><b>Anubis</b> – God of mummification and funerals.</li>
+    <li><b>Thoth</b> – God of wisdom and writing.</li>
+    <li><b>Set</b> – God of chaos and storms.</li>
+    <li><b>Ma’at</b> – Goddess of truth and balance.</li>
+  </ul>
+
+
+  
+
+  <h2>The Osiris and Isis Story</h2>
+    <img src="https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL2dldHR5aW1hZ2VzLTQ3MDcyMTgwNi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjgyOH19fQ==" style="width:800px;height:400px; float:right; margin-right: 100px;" >
+
+  <ul>
+    <li>Osiris ruled Egypt wisely.</li>
+    <li>His brother Set became jealous and killed him.</li>
+    <li>Isis reassembled and revived Osiris with magic.</li>
+    <li>Their son Horus fought Set and became king.</li>
+    <li>Osiris became god of the underworld.</li>
+  </ul>
+
+  <h2>The Afterlife</h2>
+  <ul>
+    <li>Souls were judged after death in the Weighing of the Heart.</li>
+    <li>A pure heart (light as a feather) meant eternal life.</li>
+    <li>A heavy heart (full of evil) was eaten by Ammit.</li>
+  </ul>
+
+  <h2>Symbols and Sacred Beliefs</h2>
+  <ul>
+    <li><b>Ankh</b> – Symbol of life.</li>
+    <li><b>Eye of Horus</b> – Protection and healing.</li>
+    <li><b>Scarab Beetle</b> – Rebirth and the rising sun.</li>
+    <li><b>Cats</b> – Sacred to Bastet, goddess of home and fertility.</li>
+  </ul>
+
+
+<br> 
+<button onclick="showFact()">Show a Random Fact</button>
+<p id="fact"></p>
+
+<script>
+function showFact() {
+  const facts = [
+    "The ancient Egyptians believed everything — even the sky and river — had a spirit.",
+    "They worshiped over 2,000 gods and goddesses at different times in history.",
+    "Temples were homes for the gods, not places for people to gather.",
+    "Priests offered food, water, and incense to statues each morning to ‘feed’ the gods.",
+    "The Pharaoh was seen as a living god, often linked to Horus, the sky god.",
+    "They believed life continued in the afterlife, much like life on Earth.",
+    "In the Weighing of the Heart, souls were judged before entering the afterlife.",
+    "Ammit, part crocodile, lion, and hippo, ate the hearts of those who failed judgment.",
+    "Mummification preserved the body so the soul could recognize it later.",
+    "The Ka (life force) and Ba (soul) reunited after death to form the Akh, a blessed spirit.",
+    "People wore amulets and charms to protect themselves from evil spirits.",
+    "The Ankh symbol meant ‘life’ and was often shown in gods’ hands.",
+    "Ma’at represented truth, balance, and justice — her feather judged every soul.",
+    "Thoth, the god of wisdom, invented writing and kept the words of the gods.",
+    "Horus’ right eye symbolized the sun, and his left eye symbolized the moon.",
+    "The Eye of Horus was worn as a protective charm by both the living and the dead.",
+    "Isis was loved as a motherly goddess who used magic to protect her family.",
+    "Set, the god of chaos, was feared but seen as necessary for balance.",
+    "The gods were believed to live inside their temple statues.",
+    "Only priests could enter the sacred temple rooms to perform rituals.",
+    "People left small offerings of food, perfume, and flowers at temple gates.",
+    "Egyptians believed names had power — if your name was remembered, your soul lived forever.",
+    "The dead were buried with small servant statues called shabtis to work for them in the afterlife.",
+    "The Book of the Dead contained spells to help souls reach the afterlife safely.",
+    "Boats were sometimes buried with the dead to help them travel in the next world.",
+    "Gold was thought to be the flesh of the gods — eternal and untarnished.",
+    "The scarab beetle represented Khepri, the god who rolled the sun across the sky.",
+    "Bastet, the cat goddess, protected homes and families from evil spirits.",
+    "The color green symbolized life and rebirth — Osiris was often shown with green skin.",
+    "The lotus flower symbolized creation and the sun’s daily rebirth.",
+    "Many temples were aligned with the rising or setting sun during special times of the year.",
+    "Egyptian religion mixed magic, nature, and daily life — every act had spiritual meaning."
+  ];
+
+  const randomFact = facts[Math.floor(Math.random() * facts.length)];
+  document.getElementById("fact").textContent = randomFact;
+}
+</script>
+
+
+
+        <a href="main.html">Back</a>
+        <br>
+
+    </main>
+    <script src="main.js" defer></script>
+</body>
+</html>

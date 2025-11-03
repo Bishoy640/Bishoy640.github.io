@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Main</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main id="app">
+        
+        <h1>Who Was Tutankhamun?</h1>
+        <ul>
+            <li> Tutankhamun was a boy pharaoh who ruled Egypt from about 1332 to 1323 BCE.</li>
+            <li>He became king at around 9 years old and died mysteriously at just 18 or 19.</li>
+            <li>Tut was part of the 18th Dynasty, during Egypt’s “New Kingdom” period.</li>
+            <li>His reign was short, but important — he restored the old gods after his father, Akhenaten, had forced Egypt to worship only one god (Aten).</li>
+        </ul>
+       <h1>How Much Gold Was Inside?</h1>
+        <ul>
+            <li>The most famous item is the solid gold burial mask, which weighs about <b> 11 kilograms</b> (24 pounds) of pure gold.</li>
+            <li>The tomb was packed with over 5,000 treasures, many made of solid gold or covered in gold leaf.</li>
+            <li>Just his inner coffin was also made of solid gold, weighing around <b style="font-size:larger;"> 110 kilograms</b> (240 pounds).</li>
+            <li>In total, archaeologists estimate that hundreds of kilograms of gold were used in the objects from his tomb — worth tens of millions of dollars today (though its historical value is truly priceless!).</li>
+            <li>During his period, Egypt wasnt even in its stronger period, it was relatively weak, yet they found all that,<b> CAN YOU IMAGINE?????</b></li>
+        </ul>
+
+    <img src="01_TUT.avif" id="trans" alt="King Tutankhamun's Golden Mask" style="width:400px;height:280px;">
+    <img id="trans" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Replikat_der_S%C3%BCdwand_der_Grabkammer_Tutanchamuns_%28KV62%29_%28repairandskew%29_%28cropped%29.jpg/960px-Replikat_der_S%C3%BCdwand_der_Grabkammer_Tutanchamuns_%28KV62%29_%28repairandskew%29_%28cropped%29.jpg" alt="" style="width:400px;height:280px;">
+        <br>
+<br>
+        <p id="message"></p>
+<br>
+
+
+
+
+<style>
+#trans {
+  transition: 0.5s;
+}
+#trans:hover {
+  filter: brightness(1.4);
+  transform: scale(1.05);
+}
+</style>
+
+
+
+        <a href="main.html">Back</a>
+
+
+
+
+<script>
+const text = "May the spirit of Tutankhamun guide you through history...";
+let i = 0;
+function revealText() {
+  if (i < text.length) {
+    document.getElementById("message").innerHTML += text.charAt(i);
+    i++;
+    setTimeout(revealText, 80);
+  }
+}
+window.onload = revealText;
+</script>
+
+    </main>
+    <script src="main.js" defer></script>
+</body>
+</html>
